@@ -1,0 +1,9 @@
+@use "sass:map";
+@use "components/imports/_variables.module";
+@use "vuetify/settings" with (
+  $container-max-widths: (
+    'md': map.get(variables.$grid-breakpoints, 'md'),
+    'lg': map.get(variables.$grid-breakpoints, 'lg'),
+    'xl': map.get(variables.$grid-breakpoints, 'xl'),
+  )
+);

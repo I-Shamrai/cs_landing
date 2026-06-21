@@ -1,0 +1,67 @@
+/* Black & White */
+$white: #FFFFFF;
+$gray: #D1D5DB;
+$gray-1: #F3F4F6;
+$gray-2: #717783;
+$black: #000000;
+/* Green - Success */
+$green: #059669;
+$green-1: #ECFDF5;
+$green-2: #6EE7B7;
+/* Yellow - Warnings */
+$yellow: #FCD34D;
+$yellow-1: #FFFBEB;
+$yellow-2: #FF8F19;
+/* Red - Errors */
+$red: #E53E3E;
+$red-1: #FEF2F2;
+$red-2: #FCA5A5;
+
+/* Blue */
+$blue: #1791E8;
+$blue-0: #EFF6FF;
+$blue-1: #BFDBFE;
+$blue-2: #0C50E2;
+
+/* Aliases */
+$primary: $blue-2;
+$secondary: $gray;
+$quarter-black: rgba(0,0,0,0.16);
+$half-black: rgba(0,0,0,0.5);
+$quarter-white: rgba(255,255,255,0.16);
+$half-white: rgba(255,255,255,0.5);
+$bgColor: $quarter-white;
+
+:export {
+  surface: $black;
+  on-background: $white;
+  background: $bgColor;
+  primary: $primary;
+  secondary: $secondary;
+  tetriary: $gray-1;
+  success: $green;
+  error: $red;
+  warning: $yellow;
+  white: $white;
+  gray: $gray;
+  gray-1: $gray-1;
+  gray-2: $gray-2;
+  black: $black;
+  green: $green;
+  green-1: $green-1;
+  green-2: $green-2;
+  red: $red;
+  red-1: $red-1;
+  red-2: $red-2;
+  blue: $blue;
+  blue-1: $blue-1;
+  blue-2: $blue-2;
+  yellow: $yellow;
+  yellow-1: $yellow-1;
+  yellow-2: $yellow-2;
+  bgColor: $bgColor;
+  quarter-black: $quarter-black;
+  half-black: $half-black;
+  quarter-white: $quarter-white;
+  half-white: $half-white;
+}
